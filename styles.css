@@ -115,6 +115,7 @@ picture {
     margin: auto;
     background-color: #F4F4F3;
 }
+
 .films-wrapper:before {
     content: "";
     z-index: -1;
@@ -130,7 +131,7 @@ picture {
     padding-bottom: 100px;
 }
 
-.main-para p{
+.main-para p {
     width: 60%;
     font-size: 1.8rem;
     padding: 100px 50px;
@@ -167,6 +168,7 @@ picture {
 .story {
     margin-bottom: 60px;
 }
+
 .btn {
     font-size: 1.4rem;
     color: black;
@@ -181,13 +183,25 @@ picture {
 
 
 /* interviews */
-.aricles-wrapper { 
+.aricles-wrapper {
     background-color: #000000;
-    /* padding: 100px; */
+    padding: 100px 0;
 }
 
 .grid-col-span-2 {
     grid-column: span 2;
+}
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+.grid-row-span-3 {
+    grid-row: span 3;
+}
+
+.grid-row-span-4 {
+    grid-row: span 4;
 }
 
 .interviews {
@@ -203,19 +217,53 @@ picture {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 2rem;
 }
 
-.sell p{
-    padding-top: 50px;
+.sell p {
     font-size: 3.2rem;
     margin: 0;
+    padding-top: 50px;
 }
 
-.aricles-para p{
+.aricles-para p {
     font-size: 1.8rem;
     margin: 0;
     padding: 0 50px;
 }
 
+.inrterview-img {
+    cursor: pointer;
+    overflow: hidden;
+}
 
+.inrterview-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease-in-out;
+}
+
+.inrterview-img:hover img {
+    transform: scale(1.1);
+}
+
+.inrterview h2 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+
+}
+
+.inrterview p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(252, 252, 252);
+    margin: 0;
+}
