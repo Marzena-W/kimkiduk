@@ -1,11 +1,11 @@
 ## Live Application
 
-Click [here](https://marzena-w.github.io/coffee-shop/) to see the website.
+Click [here](https://marzena-w.github.io/kimkiduk/) to see the website.
 
 <br/>
 
-![the Bean Crew](./images/coffee-shop-1.jpg)
-![the Bean Crew](./images/coffee-shop-2.jpg)
-![the Bean Crew](./images/coffee-shop-3.jpg)
+![the Bean Crew](./images/kimkiduk-1.jpg)
+![the Bean Crew](./images/kimkiduk-2.jpg)
+![the Bean Crew](./images/kimkiduk-3.jpg)
 
 <br/>
