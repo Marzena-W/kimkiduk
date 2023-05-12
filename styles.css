@@ -109,22 +109,39 @@ picture {
 }
 
 /* films */
-.films {
+.films-wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
     background-color: #F4F4F3;
-    padding-bottom: 80px;
+}
+.films-wrapper:before {
+    content: "";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    position: fixed;
 }
 
-.main-para {
+.films {
+    padding-bottom: 100px;
+}
+
+.main-para p{
     width: 50%;
     font-size: 1.8rem;
-    padding: 80px 100px;
+    padding: 100px 50px;
+    margin: 0;
 }
 
 .movies {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    margin: 0 40px;
+    margin: 0 50px;
 }
 
 .card {
@@ -158,5 +175,56 @@ picture {
     border: 1px solid black;
     border-radius: 8px;
     padding: 6px 25px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
+
+/* interviews */
+
+.aricles-wrapper { /* check !!!!11  1200px not working */ 
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    background-color: #000000;
+    margin: 0;
+}
+.aricles-wrapper:before { 
+    content: "";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    position: fixed;
+}
+
+.intro-articles {
+    display: flex;
+    color: white;
+}
+
+.sell {
+    display: flex;
+    align-items: flex-start;
+    font-size: 3.2rem;
+    padding: 100px 50px;
+    margin: 0;
+    margin-left: 80px;
+}
+
+.para {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.8rem;
+    margin: 0;
+    margin-left: 150px;
+    padding: 100px 0 0 0;
+}
+
+.articles {
+    background-color: #2243F2;
+    display: flex;
+    gap: 2rem;
+    padding: 40px;
+}
+
